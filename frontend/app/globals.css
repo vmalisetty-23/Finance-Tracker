@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #50C878;
+  color: black;
+}
+
+.graph {
+  position: relative;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  width: 700px;
+}
+
+.form-input{
+  @apply mt-1 block w-full py-2 px-3 border border-gray-200 bg-white rounded-md focus:outline-none focus:ring-indigo-500 sm:text-sm;
+}
+
+.income-form {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.submit-button :hover {
+  background-color: #50C878;
+}
+
+.submit-button-exp :hover {
+  background-color: red;
+}
+
+.expenses-form {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.history {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.table {
+  position: relative;
+  font-size: 1.5rem;
+  left: 365px;
+  width: 800px;
+}
