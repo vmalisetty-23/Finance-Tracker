@@ -53,7 +53,7 @@ Upon accessing the application, you will be prompted to register or log in to yo
 
 ## Technologies
 
-- Frontend: React, Redux, HTML, CSS
+- Frontend: React, HTML, CSS
 - Backend: Node.js, Express.js, MongoDB
 - Data Visualization: Chart.js
 - Additional Libraries: Axios, Mongoose
