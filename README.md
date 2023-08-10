@@ -1,6 +1,6 @@
 # Finance Tracker - Full MERN Stack Application
 
-Welcome to the Finance Tracker project! This is a comprehensive Full MERN (MongoDB, Express, React, Node.js) stack application designed to help you manage your finances effectively. Whether you're an individual looking to track personal expenses or a business managing financial transactions, this application provides a user-friendly interface to monitor and analyze your financial activities.
+Welcome my Finance Tracker project! This is a comprehensive Full MERN (MongoDB, Express, React, Node.js) stack application designed to help users manage finances effectively.
 
 ## Table of Contents
 
