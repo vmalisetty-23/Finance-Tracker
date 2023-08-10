@@ -18,7 +18,6 @@ Finance Tracker is a web-based application built using the MERN stack that allow
 
 ## Features
 
-- User Registration and Authentication: Allow users to register, log in, and securely access their financial data.
 - Dashboard: Provide an overview of the user's financial status, including account balances, recent transactions, and budget summaries.
 - Transaction Management: Add, edit, and categorize income and expense transactions.
 - Categories and Tags: Categorize transactions using customizable categories and tags for better organization and analysis.
@@ -56,9 +55,8 @@ Upon accessing the application, you will be prompted to register or log in to yo
 
 - Frontend: React, Redux, HTML, CSS
 - Backend: Node.js, Express.js, MongoDB
-- Authentication: JSON Web Tokens (JWT)
 - Data Visualization: Chart.js
-- Additional Libraries: Axios, Mongoose, bcrypt, etc.
+- Additional Libraries: Axios, Mongoose
 
 ## Contributing
 
